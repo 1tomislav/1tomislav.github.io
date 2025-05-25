@@ -13,7 +13,7 @@ function getTimePassed() {
 }
 
 function formatTimePassed(tp) {
-    return `${tp.years} years, ${tp.days % 365} days, ${tp.hours % 24} hours, ${tp.minutes % 60} minutes, ${tp.seconds % 60} seconds`;
+    return `${tp.years} godina, ${tp.days % 365} dana`;
 }
 
 function updateTime() {
