@@ -24,6 +24,7 @@ function updateTime() {
         document.getElementById("timePassed").textContent = formatted;
         lastFormatted = formatted;
     }
+    else {}
 }
 
 let lastFormatted = "";
