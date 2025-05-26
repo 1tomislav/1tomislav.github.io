@@ -1,7 +1,7 @@
 //30 godina i 1 {Jedan} dan je sa našeg stola blagovan. Bogu fala što nas mazi, dobro hrani i vječno pazi.  
-//(U Zimu) 30 godina i 3 dana ustajanja, ložnje vatre i ustrajanja.
-//(U Jesen)Naša peka se šušti dok vani kiša pljušti.  30 godina i 3 dana postojanja.
-//Gulaš se puši. Ovdje nema reklame za salame. 30 godina i 9 dana.
+//https://m.me/josip.stojanovic.589?text=anytexthere
+//https://ig.me/USERNAME?text=anytexthere
+//https://wa.me/+4915731052666?text=anytexthere
 //Naše srce uvik stvara mrvu više, tako se živi, tako se diše. 30 godina i 9 dana.
 //Ništa ljepše od pečenja, mrzle pive i ramske njive. 30 godina i 9 dana.
 //Potjeraj ovce, slonove i kolce! Specijaliteti sa ražnja. 30 godina i 9 dana. 
