@@ -24,9 +24,9 @@ function getTimePassed() {
 function formatTimePassed(tp) {
     // broj dana zavrsava na 1
     if((tp.days % 365)%10 === 1){
-        return `ima već ${tp.years} godina, ${tp.days % 365} dan`;    
+        return `ima već ${tp.years} godina i ${tp.days % 365} dan.`;    
     }else{
-        return `ima već ${tp.years} godina, ${tp.days % 365} dana`;
+        return `ima već ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 
