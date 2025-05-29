@@ -24,7 +24,8 @@ function getTimePassed() {
 function formatTimePassed(tp) {
     // broj dana zavrsava na 1
     if((tp.days % 365)%10 === 1){
-        return `${tp.years} godina i ${tp.days % 365} dan.`;    
+        document.getElementById("timePassed").textContent = `Osnovao Ivan, blagoslovio kapelan`
+        return `$prije {tp.years} godina i ${tp.days % 365} dan.`;    
     }else{
         return `${tp.years} godina i ${tp.days % 365} dana.`;
     }
