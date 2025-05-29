@@ -7,6 +7,7 @@
 //Potjeraj ovce, slonove i kolce! Specijaliteti sa ražnja. 30 godina i 9 dana. 
 //Čiča priča priču, oko njega glave niču. 30 godina i 9 dana.
 //Pjesma se ori, zemlja se ore, a pite se vazda more! 30 godina i 9 dana. 
+//dcdcdcff boja od linkova socijalni
 function getTimePassed() {
     const start = new Date("1990-01-01T00:00:00Z");
     const now = new Date();
