@@ -22,7 +22,7 @@ function getTimePassed() {
 }
 
 function formatTimePassed(tp) {
-    return `${tp.years} godina, ${tp.days % 365} dana`;
+    return `Duže od ${tp.years} godina, ${tp.days % 365} dana`;
 }
 
 function updateTime() {
