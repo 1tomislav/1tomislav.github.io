@@ -42,7 +42,9 @@ function updateTime() {
         document.getElementById("timePassed").textContent = formatted;
         lastFormatted = formatted;
     }
-    else {}
+    //azuriraj footer svake godine (svakih 1 minutu zapravo ali ova funkcija je jeftina za runnat)
+    const currentYear = new Date().getFullYear();
+    document.getElementById('godina').textContent = `© 1990-${currentYear} Gril Mango`;
 }
 
 let lastFormatted = "";
