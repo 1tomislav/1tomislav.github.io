@@ -27,7 +27,7 @@ function formatTimePassed(tp) {
         document.getElementById("Naslov").textContent = `🔥osnovao Ivan, blagoslovio kapelan`
         return `$prije točno {tp.years} godina i ${tp.days % 365} dan.`;    
     }else{
-        document.getElementById("Naslov").textContent = `🔥Roštilj čija tajna se čuva`
+        document.getElementById("Naslov").textContent = `🔥Roštiljska tajna stara`
         return `${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
