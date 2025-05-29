@@ -30,7 +30,7 @@ function formatTimePassed(tp) {
         return `$Koja traje {tp.years} godina i ${tp.days % 365} dan!`;    
     }else{
         document.getElementById("Naslov").textContent = `Ugostiteljstvo i obiteljska tradicija.`
-        return `Koja traje ${tp.years} godina i ${tp.days % 365} dana.`;
+        return `Koja traje već ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 
