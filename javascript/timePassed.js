@@ -25,11 +25,11 @@ function getTimePassed() {
 function formatTimePassed(tp) {
     // broj dana zavrsava na 1
     if((tp.days % 365)%10 === 1){
-        document.getElementById("Naslov").textContent = `👨‍🍳🔥🍖🥓🍔`
-        return `$Postojimo već {tp.years} godina i ${tp.days % 365} dan!`;    
+        document.getElementById("Naslov").textContent = `Ugostiteljstvo i obiteljska tradicija.`
+        return `$Koja traje {tp.years} godina i ${tp.days % 365} dan!`;    
     }else{
-        document.getElementById("Naslov").textContent = `👨‍🍳🔥🍖🥓🍔`
-        return `Postojimo već ${tp.years} godina i ${tp.days % 365} dana.`;
+        document.getElementById("Naslov").textContent = `Ugostiteljstvo i obiteljska tradicija.`
+        return `Koja traje ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 
