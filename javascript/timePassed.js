@@ -29,7 +29,7 @@ function formatTimePassed(tp) {
         return `$prije točno {tp.years} godina i ${tp.days % 365} dan!`;    
     }else{
         document.getElementById("Naslov").textContent = `👨‍🍳🔥🍖🥓🍔`
-        return `od ${tp.years} godina i ${tp.days % 365} dana.`;
+        return `Tradicija od ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 
