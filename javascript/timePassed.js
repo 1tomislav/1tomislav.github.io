@@ -8,6 +8,7 @@
 //Čiča priča priču, oko njega glave niču. 30 godina i 9 dana.
 //Pjesma se ori, zemlja se ore, a pite se vazda more! 30 godina i 9 dana. 
 //dcdcdcff boja od linkova socijalni
+//▫BROJ ZA NARUDŽBU: 036/770-003☎️ 063/414-904 ILI NARUČITE U DM-u ▫RADNO VRIJEME: ▻PONEDJELJAK-NEDJELJA ➡️ 08-22h◅. Splitska bb, Prozor 88440.
 function getTimePassed() {
     const start = new Date("1990-01-01T00:00:00Z");
     const now = new Date();
