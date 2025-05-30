@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversational Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container" id="chat">
+    <div class="message bot prvo_pitanje ">Hi there! What's your name?</div>
+    <input type="text" id="name" class="input" autocomplete="off" placeholder="Type your name..." />
+
+    <div class="message bot hidden" id="email-q">Nice to meet you, <span id="name-span"></span>! What's your email?</div>
+    <input type="email" id="email" class="input hidden" autocomplete="off" placeholder="Type your email..." />
+
+    <div class="message bot hidden" id="message-q">Got it. And what would you like to tell us?</div>
+    <textarea id="message" class="input hidden" placeholder="Type your message..."></textarea>
+
+    <div class="message bot hidden" id="thanks-msg">Thanks! We'll get back to you soon. 👋</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
 # 1tomislav.github.io
 Grill Mango
-Original author is <a href="https://twitter.com/mdo">@mdo</a>
+Obiteljski restoran u Prozor-Rami - Bosna i Hercegovina
+This work used templates from a work by <a href="https://twitter.com/mdo">@mdo</a>
