@@ -27,10 +27,10 @@ function formatTimePassed(tp) {
     // broj dana zavrsava na 1
     if((tp.days % 365)%10 === 1){
         document.getElementById("Naslov").textContent = `Obiteljski restoran sa tradicijom `
-        return `dužom od ${tp.years} godina i ${tp.days % 365} dan.`;    
+        return `Koja traje ${tp.years} godina i ${tp.days % 365} dan.`;    
     }else{
         document.getElementById("Naslov").textContent = `Obiteljski restoran sa tradicijom `
-        return `dužom od ${tp.years} godina i ${tp.days % 365} dana.`;
+        return `Koja traje ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 

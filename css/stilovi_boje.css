@@ -10,13 +10,18 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-secondary,
+.btn-secondary {
+  color: #dfdfdf;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(0, 0, 0, 0.5);
+  border: .05rem solid rgba(0, 0, 0, 0.5);;
+}
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #f5f5f5;
-  border: .05rem solid #f5f5f5;
+  background-color: #dfdfdf;
+  border: .05rem solid #dfdfdf;
 }
 
 
@@ -104,7 +109,7 @@ body {
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
