@@ -5,15 +5,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
-    <title>Hladnjače.Mango</title>
+    <title>Šatori.Mango</title>
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap_biblioteka_za_responzivnost_na_velicinu_ekrana/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="../css/stilovi_boje.css" rel="stylesheet">
+    <link href="../css/hladnjace.css" rel="stylesheet">
     <link href="../css/popup_overlay.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <div id="popupOverlay" class="overlay hidden" style="">
+    <!-- <div id="popupOverlay" class="overlay hidden" style="">
       <div class="popup">
         <span id="closePopupBtn" class="close">&times;</span>
         <iframe src="media/SpargelKarte25.pdf" width="100%" height="100%" style="border:none;"></iframe> 
@@ -25,20 +25,26 @@
         <iframe src="media/Logotip300pixela.png" width="100%" height="100%" style="border:none;"></iframe> 
       </div>
     </div>
+    <div id="popupOverlay3" class="overlay hidden" style="">
+      <div class="popup3">
+        <span id="closePopupBtn3" class="close">&times;</span>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScNu7IzwO13NrfkmdjhkwFQJWmeDa5VDLTuLlK2YHnvie8j-Q/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+      </div>
+    </div> -->
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">
            <img
-            src="../media/VatraPng.png"
-            alt="Logo Gril Mango"
+            src="../media/LogoLadnjaca.png"
+            alt="Logo Šatori Mango"
             height="75"
             width="75" />    
           </h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link " href="../index.html">Restoran</a>
-            <a class="nav-link" href="satori.html">Šatori</a>
-            <a class="nav-link active" href="#">Hladnjače</a>
+            <a class="nav-link " href="satori.html">Šatori</a>
+            <a class="nav-link active" href="hladnjace.html">Hladnjače</a>
           </nav>
         </div>
       </header>
@@ -46,17 +52,19 @@
 
 
           
-        <!-- <h3 class="cover-heading" id="Naslov"></h3>  
-        <h3 class="lead " id="timePassed" ></h3>
+        <h3 class="cover-heading" style="padding-top: 10%;" id="Naslov"></h3>  
+        <h3 class="lead " id="timePassed" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint quo quas quisquam at suscipit ut aperiam autem obcaecati iste! Dolores illum dicta quibusdam qui non nulla asperiores at eligendi voluptatum.</h3>
         
         <div class=button_common_class>
+         <p class="lead " >
+          <button id=""  class="btn btn-lg btn-secondary zadana_velicina ">Osnovne Informacije</button>
+          <!-- <div style="padding-top: 0.1%;"></div> -->
+          
+        </p>
          <p class="lead">
-          <button id="openModalBtn" class="btn btn-lg btn-secondary zadana_velicina">Karta jela i pića</button>
-         </p>
-         <p class="lead">
-          <button  id="openModalBtn2" class="btn btn-lg btn-secondary">Današnja ponuda</button>
-         </p>    
-        </div> -->
+          <button  id=""  class="btn btn-lg btn-secondary ">Najam Hladnjače</button>
+            
+        </div>
         
 
 
@@ -76,42 +84,42 @@
         <!--Postavljanje azurne godine se izvodi u timePassed.js skripti, ovo je beskorisno mijenjati jer prilikom ucitavanja stranice ce timePassed prepisati preko ove vrijednosti-->
         
         
-        <h2 class="lead" >↓ Naruči / Rezerviraj / Javi ↓</h2>
+        <!-- <h2 class="lead" >↓ Za sve upite javite se na brzom izborniku ↓</h2>
         <div class="d-flex justify-content-around">
           <div>
-            <a href="https://getbootstrap.com/">
+            <a href="tel:+38736770003">
               <img src="../media/telephone.png" height="40px" width="40px">
             </a><br>
-            <small>Nazovi</small>
+            <small>Poziv</small>
           </div>
           <div>
-            <a href="https://getbootstrap.com/">
+            <a href="https://m.me/tomislav.petrovic.7165">
               <img src="../media/messenger.png" height="40px" width="40px">
             </a><br>
             <small>Messenger</small>
           </div>
           <div>
-            <a href="https://getbootstrap.com/">
+            <a href="instagram://user?username=grill.mango">
               <img src="../media/instagram2.png" height="40px" width="40px">
             </a><br>
             <small>Instagram</small>
           </div>
           <div>
-            <a href="https://getbootstrap.com/">
+            <a href="https://wa.me/+38763414904">
               <img src="../media/whatsapp.png" height="40px" width="40px">
             </a><br>
             <small>WhatsApp</small>
           </div>
-        </div>
+        </div> -->
         <br>
       <small>Radno vrijeme 08:00 - 22:00h Pon-Ned</small>  <br>
-      <small>Zaprati nas na <a>facebooku</a> i <a>instagramu.</a></small>  
+      <small>Zaprati nas na <a href="https://www.facebook.com/groups/860951776158197">facebooku</a> i <a href="instagram://user?username=grill.mango">instagramu.</a></small>  
       </div>
       <br>
       <p id=godina>© 1990-2025 Gril Mango</p>
       </footer>
     </div>
-    <script>
+    <!-- <script>
       const openBtn = document.getElementById('openModalBtn');
       const overlay = document.getElementById('popupOverlay');
       const closeBtn = document.getElementById('closePopupBtn');
@@ -120,6 +128,9 @@
       const overlay2 = document.getElementById('popupOverlay2');
       const closeBtn2 = document.getElementById('closePopupBtn2');
 
+      const openBtn3 = document.getElementById('openModalBtn3');
+      const overlay3 = document.getElementById('popupOverlay3');
+      const closeBtn3 = document.getElementById('closePopupBtn3');
       // Show popup
       openBtn.addEventListener('click', () => {
         overlay.classList.remove('hidden');
@@ -127,12 +138,18 @@
       openBtn2.addEventListener('click', () => {
         overlay2.classList.remove('hidden');
       });
+      openBtn3.addEventListener('click', () => {
+        overlay3.classList.remove('hidden');
+      });
       // Close on 'X'
       closeBtn.addEventListener('click', () => {
         overlay.classList.add('hidden');
       });
       closeBtn2.addEventListener('click', () => {
         overlay2.classList.add('hidden');
+      });
+      closeBtn3.addEventListener('click', () => {
+        overlay3.classList.add('hidden');
       });
       // Close by clicking outside popup
       overlay.addEventListener('click', (e) => {
@@ -144,8 +161,12 @@
         if (e.target === overlay) {
           overlay2.classList.add('hidden');
         }});
-    </script>
-    <script src="javascript/timePassed.js"></script>
+        overlay3.addEventListener('click', (e) => {
+        if (e.target === overlay) {
+          overlay3.classList.add('hidden');
+        }});
+    </script> -->
+    <!-- <script src="../javascript/timePassed.js"></script> -->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
