@@ -26,11 +26,11 @@ function getTimePassed() {
 function formatTimePassed(tp) {
     // broj dana zavrsava na 1
     if((tp.days % 365)%10 === 1){
-        document.getElementById("Naslov").textContent = `Obiteljski restoran sa tradicijom `
-        return `Koja traje ${tp.years} godina i ${tp.days % 365} dan.`;    
+        document.getElementById("Naslov").textContent = `Ramski obiteljski restoran sa tradicijom`
+        return `koja traje ${tp.years} godina i ${tp.days % 365} dan.`;    
     }else{
-        document.getElementById("Naslov").textContent = `Obiteljski restoran sa tradicijom `
-        return `Koja traje ${tp.years} godina i ${tp.days % 365} dana.`;
+        document.getElementById("Naslov").textContent = `Ramski obiteljski restoran sa tradicijom`
+        return `koja traje ${tp.years} godina i ${tp.days % 365} dana.`;
     }
 }
 

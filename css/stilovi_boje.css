@@ -8,6 +8,9 @@ a:focus,
 a:hover {
   color: #fff;
 }
+html, body {
+  overflow-x: hidden;
+}
 
 /* Custom default button */
 .btn-secondary {
