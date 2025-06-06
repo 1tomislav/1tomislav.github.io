@@ -17,7 +17,7 @@ html, body {
   color: #dfdfdf;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: rgba(0, 0, 0, 0.5);
-  border: .05rem solid rgba(0, 0, 0, 0.5);;
+  border: .05rem solid dfdfdf
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
